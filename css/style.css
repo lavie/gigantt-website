@@ -74,7 +74,7 @@ padding-top: 12px;
 }
 
 footer nav li a {
-font-family: 'Helvetica Neue Bold', Arial, sans-serif;
+font-family: 'UbuntuBold', 'Helvetica Neue Bold', Arial, sans-serif;
 	text-shadow: 0px 1px 1px #919191;
 	filter: dropshadow(color=#919191, offx=0, offy=1);
 }
@@ -100,12 +100,12 @@ padding: 54px 0 96px;
 #calltoaction p {
 font-size: 22px;
 margin: 12px 0;
-font-family: 'Helvetica Neue Light', Arial, sans-serif;
-/*
-	text-shadow: 0px 1px 1px #ffffff;
-	filter: Shadow(Color=#ffffff, Direction=90, Strength=1);
+font-family: 'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
+
+	text-shadow: 0px 1px 0px #ffffff;
+	filter: Shadow(Color=#ffffff, Direction=90, Strength=0.5);
 	filter: dropshadow(color=#ffffff, offx=0, offy=1);
-*/
+	
 }
 
 #calltoaction .video-container {
@@ -210,7 +210,7 @@ font-weight: normal;
 margin: 0;
 font-size: 13px;
 line-height: 22px;
-font-family: 'Helvetica Neue Light', Arial, sans-serif;
+font-family: 'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
 }
 
 #features li {
