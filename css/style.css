@@ -37,7 +37,7 @@ margin: 0 2% 0 0;
 
 footer {
 background: url(../img/bg_body_beta.png) top left repeat;
-height: 148px;
+height: 70px;
 }
 
 footer .fluid {
@@ -90,22 +90,20 @@ padding: 0;
 }
 
 #calltoaction {
-text-align: center;
-color: #6f6f6f;
-background: url(../img/bg_body_alpha.png) top left repeat-x;
-margin-top: -20px;
-padding: 54px 0 30px;
+	text-align: center;
+	color: #6f6f6f;
+	background: url(../img/bg_body_alpha.png) top left repeat-x;
+	margin-top: -20px;
+	padding: 54px 0 30px;
 }
 
 #calltoaction p {
-font-size: 22px;
-margin: 12px 0;
-font-family: 'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
-
+	font-size: 22px;
+	margin: 12px 0;
+	font-family: 'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
 	text-shadow: 0px 1px 0px #ffffff;
 	filter: Shadow(Color=#ffffff, Direction=90, Strength=0.5);
 	filter: dropshadow(color=#ffffff, offx=0, offy=1);
-	
 }
 
 #calltoaction .video-container {
@@ -131,7 +129,7 @@ left: 17.5%;
 background: #000;
 }
 
-#calltoaction .video-container .video .alpha {
+#main .alpha, #calltoaction .video-container .video .alpha {
 position: relative;
 padding-bottom: 56.25%;
 padding-top: 25px;
@@ -146,14 +144,14 @@ width: 100%;
 height: 100%;
 }
 
-#calltoaction .action {
+.action {
 width: 228px;
 margin: 0 auto;
 position: relative;
 overflow: hidden;
 }
 
-#calltoaction .action .arrow {
+ .arrow {
 position: absolute;
 top: 27px;
 right: 36px;
@@ -163,6 +161,12 @@ right: 36px;
 border-top: 1px solid #383838;
 background: url(../img/bg_fold.png) top left repeat;
 min-height: 104px;
+overflow: hidden;
+}
+#empty-fold {
+border-top: 1px solid #383838;
+background: url(../img/bg_fold.png) top left repeat;
+min-height: 34px;
 overflow: hidden;
 }
 
@@ -408,5 +412,12 @@ nav .pills-hover {
 margin-top: 10px;
 }
 
-
-
+footer.sticky {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	height: 100px;
+}
+.sticky .fluid {
+	margin-top: -20px;
+}
