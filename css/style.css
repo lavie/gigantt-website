@@ -48,11 +48,21 @@ footer a {
 color: #3f3f3f;
 }
 
+.sticky .fluid a {
+color: #7d7d7d;
+}
+
 footer hr {
 border-top: #3a3a3a solid 1px;
 border-bottom: #7d7d7d solid 1px;
 margin: 0;
 height: 0;
+}
+
+.sticky .fluid hr {
+border-top: #a7a7a7 solid 1px;
+border-bottom: #ffffff solid 1px;
+
 }
 
 footer nav {
@@ -79,8 +89,10 @@ footer nav li a {
 	filter: dropshadow(color=#919191, offx=0, offy=1);
 }
 
-footer nav li a {
-	
+.sticky nav li a {
+	text-shadow: 0px 1px 0px #ffffff;
+	filter: Shadow(Color=#ffffff, Direction=90, Strength=0.5);
+	filter: dropshadow(color=#ffffff, offx=0, offy=1);
 }
 
 footer nav .logo {
@@ -415,6 +427,7 @@ margin-top: 10px;
 
 footer.sticky {
 	position: absolute;
+	background: none;
 	width: 100%;
 	bottom: 0px;
 	height: 100px;
@@ -422,3 +435,4 @@ footer.sticky {
 .sticky .fluid {
 	margin-top: -20px;
 }
+
