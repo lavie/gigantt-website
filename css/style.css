@@ -32,7 +32,7 @@ color: #fff;
 
 header .priority {
 float: right;
-margin: 0 2% 0 0;
+margin: 0 0 0 0;
 }
 
 footer {
@@ -52,17 +52,20 @@ color: #3f3f3f;
 color: #7d7d7d;
 }
 
-footer hr {
-border-top: #3a3a3a solid 1px;
-border-bottom: #7d7d7d solid 1px;
+hr {
 margin: 0;
 height: 0;
 }
 
-.sticky .fluid hr {
-border-top: #a7a7a7 solid 1px;
-border-bottom: #ffffff solid 1px;
+footer hr {
+border-top: #3a3a3a solid 1px;
+border-bottom: #7d7d7d solid 1px;
+}
 
+hr.light{
+	border-top: #a7a7a7 solid 1px;
+	border-bottom: #ffffff solid 1px;
+	margin-bottom: 4em;
 }
 
 footer nav {
@@ -139,6 +142,13 @@ width: 64.68%;
 top: 7px;
 left: 17.5%;
 background: #000;
+}
+
+.alpha
+{
+max-width: 940px;
+min-width: 600px !important;
+margin: 0 auto;
 }
 
 #main .alpha, #calltoaction .video-container .video .alpha {
@@ -404,21 +414,22 @@ text-align: center;
 float: left;
 }
 
-.pills-text-shadow {
-	text-shadow: 0px 1px 1px #326aa4;
-	filter: dropshadow(color=#326aa4, offx=0, offy=1);
-}
-
-.pills-hover:hover .pills-hover-l {
+.pills-hover-l {
 background: url(../img/pills_hover_l.png) top right no-repeat;
 }
 
-.pills-hover:hover .pills-hover-r {
+.pills-hover-r {
 background: url(../img/pills_hover_r.png) top left no-repeat;
 }
 
-.pills-hover:hover .pills-hover-c {
+.pills-hover-c {
 background: url(../img/pills_hover_c.png) top left repeat-x;
+}
+
+
+.pills-text-shadow {
+	text-shadow: 0px 1px 1px #326aa4;
+	filter: dropshadow(color=#326aa4, offx=0, offy=1);
 }
 
 nav .pills-hover {
@@ -430,9 +441,12 @@ footer.sticky {
 	background: none;
 	width: 100%;
 	bottom: 0px;
-	height: 100px;
+	height: 60px;
 }
 .sticky .fluid {
 	margin-top: -20px;
 }
 
+.page_name {
+	text-align: left;
+}
