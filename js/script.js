@@ -1,15 +1,15 @@
 $(document).ready(function() {
 	// new height * original width / original height = new width
 
-	var minimumHeight = 568;
+	var minimumHeight = 350;
 	var headerHeight = $('header').height() - 20;
 	var foldHeight = $('#fold').outerHeight();
 
-	resize();
+//	resize();
 
 	function resize() {
-		var windowHeight = $(window).height(),
-			newHeight = windowHeight - (headerHeight + foldHeight + 150);
+		var windowHeight = $(window).height();
+		var	newHeight = windowHeight - (headerHeight + foldHeight + 400);
 	
 		if (newHeight >= minimumHeight) {
 			var callToAction = $('#calltoaction > .fluid');
@@ -21,7 +21,7 @@ $(document).ready(function() {
 	}
 	
 	$(window).resize(function() {
-		resize();
+//		resize();
 	});
 
 });
