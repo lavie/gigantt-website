@@ -23,5 +23,8 @@ $(document).ready(function() {
 	$(window).resize(function() {
 //		resize();
 	});
+	$("#demoVid").html('	<source src="http://d21sa2vcik56oi.cloudfront.net/silent_x264_001.mp4" type="video/mp4" />' + 
+							'<source src="http://d21sa2vcik56oi.cloudfront.net/silent_libtheora.ogv" type="video/ogg" />' +
+							'<source src="http://d21sa2vcik56oi.cloudfront.net/silent_VP8.webm" type="video/webm" />' );
 
 });
