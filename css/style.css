@@ -202,10 +202,11 @@ overflow: hidden;
 }
 
 #features h2 {
-color: #fff;
-margin: 15px 0 25px;
-font-size: 21px;
-font-weight: normal;
+	text-align: center;
+	color: #fff;
+	margin: -5px 0 25px;
+	font-size: 21px;
+	font-weight: normal;
 	text-shadow: 0px -1px 0px #3d3d3e;
 	filter: dropshadow(color=#3d3d3e, offx=0, offy=-1);
 }
