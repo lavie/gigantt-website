@@ -74,7 +74,7 @@ padding-top: 12px;
 }
 
 footer nav li a {
-font-family: 'UbuntuBold', 'Helvetica Neue Bold', Arial, sans-serif;
+	font-family: 'UbuntuBold', 'Helvetica Neue Bold', Arial, sans-serif;
 	text-shadow: 0px 1px 1px #919191;
 	filter: dropshadow(color=#919191, offx=0, offy=1);
 }
