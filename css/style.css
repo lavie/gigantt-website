@@ -505,3 +505,16 @@ nav .pills-hover
 	top:0;
 	right:0;
 }
+
+.tos {
+	line-height: 2em;
+	text-align: left;
+}
+
+.tos div {
+	margin-top: 1em;
+}
+
+.tos_section {
+	font-weight: bold;
+}
