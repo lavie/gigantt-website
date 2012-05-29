@@ -131,7 +131,7 @@ footer nav .logo
 	padding:54px 0 30px;
 }
 
-#calltoaction p
+#main p, #calltoaction p
 {
 	font-size:22px;
 	font-family:'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
@@ -139,6 +139,11 @@ footer nav .logo
 	filter:dropshadow(color=#ffffff, offx=0, offy=1);
 	margin:12px 0;
 }
+
+#main hr {
+	margin: 1em 0 2em;
+}
+
 
 #calltoaction .video-container
 {
@@ -456,7 +461,7 @@ nav .pills-hover
 	text-align:left;
 }
 
-.alpha,.fluid
+#main,.alpha,.fluid
 {
 	max-width:940px;
 	min-width:600px !important;
@@ -472,4 +477,14 @@ nav .pills-hover
 {
 	text-shadow:0 1px 1px #326aa4;
 	filter:dropshadow(color=#326aa4, offx=0, offy=1);
+}
+
+#main {
+	text-align:center;
+	color:#6f6f6f;
+	margin-top:-20px;
+	padding:54px 0 30px;
+	position:relative;
+	top:0;
+	right:0;
 }
