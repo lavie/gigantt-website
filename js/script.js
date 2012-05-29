@@ -26,7 +26,7 @@ $(document).ready(function() {
 */
 
 	$(window).resize(function() {
-//		$("footer").pinFooter("relative");
+		$("footer").pinFooter("relative");
 	});
 });
 
