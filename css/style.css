@@ -459,6 +459,10 @@ nav .pills-hover
 .page_name
 {
 	text-align:left;
+	font-family:'UbuntuRegular', 'Helvetica Neue Bold', Arial, sans-serif;
+	text-shadow:0 1px 0 #fff;
+	filter:dropshadow(color=#ffffff, offx=0, offy=1);
+	
 }
 
 #main,.alpha,.fluid
