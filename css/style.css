@@ -520,3 +520,51 @@ nav .pills-hover
 }
 
             
+.validated-form {
+	text-align: left;
+	width: 600px;
+
+	font-family:'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
+	text-shadow:0 1px 0 #fff;
+	filter:dropshadow(color=#ffffff, offx=0, offy=1);
+}
+
+.form-field {
+	margin: 1em;
+}
+
+.field-name
+{
+	font-size: 1em;
+	margin-bottom: 0.4em;
+}
+
+.field-value
+{
+	font-family: 'Futuram', 'Helvetica Neue', 'UbuntuRegular', 'sans-serif';
+	font-size: 1.4em;
+	width: 280px;
+}
+
+.field-error
+{
+	color: #FF0000;
+	font-size: 0.7em;
+	text-shadow:none;
+	filter:none();
+}
+
+.register-form
+{
+	width:300px;
+	overflow:hidden;
+	text-align: center;
+	margin:0 auto;
+}
+.register-form .submit
+{
+	margin: 2em auto;
+	display: block;
+	width: 200px;
+}
+
