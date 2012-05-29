@@ -430,8 +430,13 @@ span.btn-beta-text-shadow
 	position:absolute;
 	top:0;
 	left:0;
+}
+
+.selected .pills-hover-l 
+{
 	background:url(../img/pills_hover_l.png) top right no-repeat;
 }
+
 
 .pills-hover-r
 {
@@ -439,6 +444,10 @@ span.btn-beta-text-shadow
 	position:absolute;
 	top:0;
 	right:0;
+}
+
+.selected  .pills-hover-r 
+{
 	background:url(../img/pills_hover_r.png) top left no-repeat;
 }
 
@@ -447,8 +456,12 @@ span.btn-beta-text-shadow
 	min-width:30px;
 	text-align:center;
 	float:left;
-	background:url(../img/pills_hover_c.png) top left repeat-x;
 	margin:0 auto;
+}
+
+.selected .pills-hover-c
+{
+	background:url(../img/pills_hover_c.png) top left repeat-x;
 }
 
 nav .pills-hover
