@@ -542,7 +542,8 @@ nav .pills-hover
 
 .field-value
 {
-	font-family: 'Futuram', 'Helvetica Neue', 'UbuntuRegular', 'sans-serif';
+	font-family: 'UbuntuRegular', 'sans-serif';
+	color: #6f6f6f;
 	font-size: 1.4em;
 	width: 280px;
 }
