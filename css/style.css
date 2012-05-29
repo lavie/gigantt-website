@@ -47,6 +47,12 @@ footer
 	height:70px;
 }
 
+footer.light
+{
+	background:none;
+	height:70px;
+}
+
 
 footer a
 {
@@ -70,11 +76,10 @@ footer hr
 	border-bottom:#7d7d7d solid 1px;
 }
 
-hr.light
+.light hr, hr.light
 {
 	border-top:#a7a7a7 solid 1px;
 	border-bottom:#fff solid 1px;
-	margin-bottom:4em;
 }
 
 footer nav
@@ -122,7 +127,6 @@ footer nav .logo
 {
 	text-align:center;
 	color:#6f6f6f;
-	background:url(../img/bg_body_alpha.png) top left repeat-x;
 	margin-top:-20px;
 	padding:54px 0 30px;
 }
