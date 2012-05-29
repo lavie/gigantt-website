@@ -47,17 +47,13 @@ footer
 	height:70px;
 }
 
-footer .fluid
-{
-	overflow:hidden;
-}
 
 footer a
 {
 	color:#3f3f3f;
 }
 
-.sticky .fluid a
+.light .fluid a
 {
 	color:#7d7d7d;
 }
@@ -109,7 +105,7 @@ footer nav li a
 	filter:dropshadow(color=#919191, offx=0, offy=1);
 }
 
-.sticky nav li a
+.light nav li a
 {
 	text-shadow:0 1px 0 #fff;
 	filter:dropshadow(color=#ffffff, offx=0, offy=1);
@@ -166,7 +162,7 @@ footer nav .logo
 	background:#000;
 }
 
-#main .alpha,#calltoaction .video-container .video .alpha
+#calltoaction .video-container .video .alpha
 {
 	position:relative;
 	padding-bottom:56.25%;
@@ -449,20 +445,6 @@ span.btn-beta-text-shadow
 nav .pills-hover
 {
 	margin-top:10px;
-}
-
-footer.sticky
-{
-	position:absolute;
-	background:none;
-	width:100%;
-	bottom:0;
-	height:60px;
-}
-
-.sticky .fluid
-{
-	margin-top:-20px;
 }
 
 .page_name
