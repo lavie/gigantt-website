@@ -520,13 +520,18 @@ nav .pills-hover
 }
 
             
-.validated-form {
+.plan_list, .validated-form {
 	text-align: left;
 	width: 600px;
 
 	font-family:'UbuntuLight', 'Helvetica Neue Light', Arial, sans-serif;
 	text-shadow:0 1px 0 #fff;
 	filter:dropshadow(color=#ffffff, offx=0, offy=1);
+}
+
+.plan_list
+{
+	font-size: 1.3em;
 }
 
 .form-field {
