@@ -18,13 +18,13 @@ header nav ul
 	height:51px;
 	margin:0 auto;
 	padding:0;
+	width: 940px;
 }
 
 header nav li
 {
 	float:left;
 	line-height:44px;
-	margin-left:1%;
 }
 
 header nav li a
